@@ -125,17 +125,38 @@ table {
 }
 
 .photo-container {
-  height: 30rem;
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
+}
+
+.card {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .photo {
   height: 25rem;
   width: 25rem;
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  align-self: center;
+}
+
+.description {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+.expand {
+  height: 1.5rem;
+  opacity: 50%;
+  width: 20rem;
+  align-self: center;
+  margin-bottom: 0.5rem;
 }
 
 .photo-title {
@@ -153,4 +174,9 @@ footer {
   margin-bottom: 0.5rem;
   height: 7rem;
   width: 7rem;
+}
+
+.descrip-div {
+  width: 50rem;
+  text-align: left;
 }

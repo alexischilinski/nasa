@@ -32,7 +32,6 @@ class App extends Component{
           <Header/>
           <Form findPhoto={this.findPhoto} />
           {this.state.photo.title ? <Container photo={this.state.photo}/> : <Container />}
-          <Footer/>
       </div>
     );
   }
